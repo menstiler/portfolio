@@ -3375,6 +3375,8 @@ input, select, textarea {
 
 			.image.left, .image.right {
 				max-width: 100%;
+				padding:0px;
+				float:none;
 			}
 
 	}
