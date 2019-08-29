@@ -1,7 +1,7 @@
 # My Portfolio Website 
 
 ## About me
-I'm a Full-Stock Web Developer based in NYC, I code in JavaScript and Ruby, using framework like Rails and React. I studied software engineering at the Flatiron School immersive program, and graduated in the summer of 2019. I enjoy building applications that are useful and that can make peoples lives easier
+I'm a Full-Stock Web Developer based in NYC, I code in JavaScript and Ruby, using frameworks like Rails and React. I studied software engineering at the Flatiron School immersive program, and graduated in the summer of 2019. I enjoy building applications that are useful and that can make peoples lives easier
 
 View my complete portfolio [here](http://mendel-stillerman.surge.sh/)
 
