@@ -272,11 +272,22 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		@media screen and (max-width: 980px) {
+    overflow: hidden;
+    /* white-space: initial; */
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* white-space: nowrap; */
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
 
 			.container {
 				max-width: 100% !important;
 				width: 100% !important;
+			}
+
+			.container > div {
+				padding-bottom: 1em;
 			}
 
 		}
@@ -3305,6 +3316,7 @@ input, select, textarea {
 
 				.main.style2 {
 					background-attachment: scroll;
+					padding: 3em 1.5em 2em 1.5em;
 				}
 
 		/* Header */
@@ -3379,6 +3391,10 @@ input, select, textarea {
 				float:none;
 			}
 
+					/* Blog images */
+		.image img {
+			height: 100%;
+		}
 	}
 
 /* Small */
@@ -3468,14 +3484,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		/* Button */
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			.button {
-				padding: 0;
-			}
 
 		/* Main */
 
