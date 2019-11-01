@@ -271,26 +271,14 @@ input, select, textarea {
 		.container.max {
 			width: 100%;
 		}
-
-    overflow: hidden;
-    /* white-space: initial; */
-    display: block;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    /* white-space: nowrap; */
-    -webkit-line-clamp: 4;
-    text-overflow: ellipsis;
-
 			.container {
-				max-width: 100% !important;
-				width: 100% !important;
+				/* max-width: 100% !important; */
+				/* width: 100% !important; */
 			}
 
 			.container > div {
 				padding-bottom: 1em;
 			}
-
-		}
 
 		@media screen and (max-width: 480px) {
 
